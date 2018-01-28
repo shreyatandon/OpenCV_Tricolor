@@ -15,8 +15,8 @@ int main(int argc, char** argv)
 	// So the image will appear red as the red 
 	// component is set to 100.
 
-	int rows = 500;
-	int columns = 500;
+	int rows = 200;
+	int columns = 200;
 	//Mat img(rows,columns, CV_8U);
 	Mat img(rows, columns,CV_8UC3);
 	for (size_t i = 0; i < rows; i++)
